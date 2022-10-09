@@ -1,8 +1,27 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/code';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+// @import "core/variables";
+// @import "core/reset";
+// @import "components/code";
+// @import "components/links";
+// @import "layout/page";
+// @import "layout/header";
+// @import "layout/footer";
+// @import "pages/index";
+
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  position: fixed;
+}
+
+.icon__container {
+  background-color: #0271bc;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
