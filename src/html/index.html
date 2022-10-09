@@ -3,15 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>
       Anonymous Proxy - Modul 1 - Final Evaluation - Marcela B Petroli
     </title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;400&display=swap"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
@@ -54,8 +52,8 @@
         </div>
       </section>
 
-      <section>
-        <h3>3 reasons to purchase</h3>
+      <section class="reasons">
+        <h3 class="reasons__main">3 reasons to purchase</h3>
         <h2>Ut sed metus</h2>
         <p>Lorem ipsum dolor sit amet, consecteur.</p>
 
@@ -78,37 +76,35 @@
         </a>
       </section>
 
-      <footer>
-        <section>
-          <nav>
-            <ul>
-              <li>articles</li>
-              <li>books</li>
-              <li>events</li>
-              <li>reasons</li>
-              <li>tips</li>
-            </ul>
-          </nav>
-          <nav>
-            <ul>
-              <li>twitter</li>
-              <li>instagram</li>
-              <li>mastodon.social</li>
-            </ul>
-          </nav>
+      <footer class="footer">
+        <nav>
+          <ul class="footer__links one">
+            <a class="footer__links-list" href="#"><li>articles</li></a>
+            <a class="footer__links-list" href="#"><li>books</li></a>
+            <a class="footer__links-list" href="#"><li>events</li></a>
+            <a class="footer__links-list" href="#"><li>reasons</li></a>
+            <a class="footer__links-list" href="#"><li>tips</li></a>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="footer__links two">
+            <a class="footer__links-list" href="#"><li>twitter</li></a>
+            <a class="footer__links-list" href="#"><li>instagram</li></a>
+            <a class="footer__links-list" href="#"><li>mastodon.social</li></a>
+          </ul>
+        </nav>
 
-          <p>
-            &copy; 2022
-            <span
-              >we<img
-                src="./assets/images/favicon-16x16.png"
-                alt="heart icon"
-                title="heart icon"
-              />
-              components</span
-            >
-          </p>
-        </section>
+        <span> &copy; 2022</span>
+
+        <span class="love-components"
+          >we
+          <img
+            src="./assets/images/favicon-16x16.png"
+            alt="heart icon"
+            title="heart icon"
+          />
+          components</span
+        >
       </footer>
     </main>
   </body>
