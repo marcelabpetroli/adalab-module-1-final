@@ -260,6 +260,8 @@ body {
   }
   .reasons__container {
     display: grid;
+    margin-top: 1.7rem;
+    margin-bottom: -3rem;
     grid-template-columns: 1fr 1fr 1fr;
   }
   .reasons__container-items {
@@ -275,15 +277,24 @@ body {
   .reasons__sub {
     font-size: 2rem;
   }
-
   .btn__reasons-container {
     padding-top: 3rem;
   }
 
   .footer__link-section {
     display: flex;
+    justify-content: space-between;
     width: 60vw;
-    justify-content: right;
-    gap: 3rem;
+    text-align: left;
+    gap: 15rem;
+    margin-left: -20rem;
+  }
+
+  .footer__links-list {
+    width: 6rem;
+  }
+
+  .footer__copy {
+    order: -1;
   }
 }
