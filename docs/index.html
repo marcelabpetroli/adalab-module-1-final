@@ -1,70 +1,163 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@700&display=swap"
       rel="stylesheet"
     />
+    <title>
+      Anonymous Proxy - Modul 1 - Final Evaluation - Marcela B Petroli
+    </title>
     <link rel="stylesheet" href="./assets/css/main.css" />
-    <link rel="icon" href="./assets/images/favicon.png" />
   </head>
-
   <body>
-    <div class="page">
-      <header class="page__header">
-        <img src="./assets/images/logo-adalab.png" alt="Adalab" />
-        <h1>Bienvenidos a Adalab</h1>
-      </header>
+    <header class="header">
+      <div class="header__hamb">
+        <a href="https://adalab.es/" target="_blank">
+          <img
+            src="./assets/images/ico-menu.svg"
+            alt="Menu icon"
+            title="Go to Adalab page"
+          />
+        </a>
+      </div>
+    </header>
+    <main>
+      <section class="hero__container" id="hero">
+        <h1 class="hero__primary">anonymous proxy</h1>
+        <p class="hero__primary-sub">In hac habitasse platea dictumst.</p>
+        <div class="hero__white-circle-container">
+          <a class="hero__white-circle" href="./index.html#reasons">
+            <img
+              class="hero__arow"
+              src="./assets/images/ico-scroll-down.svg"
+              alt="Button to go to section 3 reasons to purchase"
+              title="Button to go to section 3 reasons to purchase"
+            />
+          </a>
+        </div>
+      </section>
 
-      <main class="page__main">
-        <h2>Este es el starter kit de Adalab</h2>
-        <p>Lo usamos para aprender:</p>
-        <ul class="main__list">
-          <li>Sass</li>
-          <li>HTML partials</li>
-          <li>Gulp</li>
-          <li>y muchas cosas más</li>
-        </ul>
-        <p>Si quieres saber cúales son las rutas correctas para:</p>
-        <ul class="main__list">
-          <li>
-            una <code class="code">&lt;img /&gt;</code> mira el fichero
-            <code class="code">./src/html/partials/header.html</code>.
-          </li>
-          <li>
-            y para un <code class="code">background-image</code> mira el fichero
-            <code class="code">./src/html/scss/layout/_page.scss</code>.
-          </li>
-        </ul>
-        <p>
-          Si quieres saber cómo usar un partial HTML dentro de otro partial,
-          busca en la carperta
-          <code class="code">./src/html/index.html</code> y
-          <code class="code">./src/html/partials/main.html</code>, y verás cómo
-          estamos creando estos enlaces:
+      <section class="insomnia">
+        <small class="insomnia__tips">insomnia tips</small>
+        <h3 class="insomnia__look">looking through a window</h3>
+        <p class="insomnia__look-paragraph">
+          Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis,
+          at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
         </p>
-        <ul class="main__list">
-          <li>
-            <a class="link__adalab" href="https://adalab.es">Adalab</a>
-          </li>
-          <li>
-            <a class="" href="./more-info.html">Más info del starter kit</a>
-          </li>
-        </ul>
-      </main>
+        <div class="btn__go-container">
+          <a class="btn__go-word" href="#">go</a>
+        </div>
+      </section>
 
-      <footer class="page__footer">
-        <small>
-          &copy; Todos los derechos reservados
-          <a class="link__adalab" href="https://adalab.es">Adalab</a>
-        </small>
+      <section class="reasons" id="reasons">
+        <h3 class="reasons__main">3 reasons to purchase</h3>
+
+        <div class="reasons__container-items">
+          <h2 class="reasons__main-bold">Ut sed metus</h2>
+          <p class="reasons__sub">Lorem ipsum dolor sit amet, consecteur.</p>
+        </div>
+
+        <div class="reasons__container-items">
+          <h2 class="reasons__main-bold">Curabitur ac erat</h2>
+          <p class="reasons__sub">Mauris mattis urna quis lorem molestie.</p>
+        </div>
+
+        <div class="reasons__container-items">
+          <h2 class="reasons__main-bold">Morbi dictum</h2>
+          <p class="reasons__sub">Aliquam in dolor et dolor tincidunt.</p>
+        </div>
+
+        <div class="btn__reasons-container">
+          <a class="btn__reasons-more" href="#">more reasons</a>
+        </div>
+
+        <div class="reasons__white-circle-container">
+          <a class="reasons__white-circle" href="#hero">
+            <img
+              class="reasons__arow"
+              src="./assets/images/ico-arrow.svg"
+              alt=""
+              title=""
+            />
+          </a>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <nav>
+          <ul class="footer__links">
+            <a
+              class="footer__links-list"
+              href="https://adalab.es/"
+              target="_blank"
+              ><li>articles</li></a
+            >
+            <a
+              class="footer__links-list"
+              href="https://adalab.es/"
+              target="_blank"
+              ><li>books</li></a
+            >
+            <a
+              class="footer__links-list"
+              href="https://adalab.es/"
+              target="_blank"
+              ><li>events</li></a
+            >
+            <a
+              class="footer__links-list"
+              href="https://adalab.es/"
+              target="_blank"
+              ><li>reasons</li></a
+            >
+            <a
+              class="footer__links-list"
+              href="https://adalab.es/"
+              target="_blank"
+              ><li>tips</li></a
+            >
+          </ul>
+        </nav>
+        <nav>
+          <ul class="footer__links two">
+            <a
+              class="footer__links-list"
+              href="https://adalab.es/"
+              target="_blank"
+              ><li>twitter</li></a
+            >
+            <a
+              class="footer__links-list"
+              href="https://adalab.es/"
+              target="_blank"
+              ><li>instagram</li></a
+            >
+            <a
+              class="footer__links-list"
+              href="https://adalab.es/"
+              target="_blank"
+              ><li>mastodon.social</li></a
+            >
+          </ul>
+        </nav>
+
+        <span class="copy"> &copy; 2022</span>
+
+        <span class="love-components"
+          >we
+          <img
+            src="./assets/images/favicon-16x16.png"
+            alt="heart icon"
+            title="heart icon"
+          />
+          components</span
+        >
       </footer>
-    </div>
-    <script src="./assets/js/main.js"></script>
+    </main>
   </body>
 </html>
