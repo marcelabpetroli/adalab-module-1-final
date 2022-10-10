@@ -27,11 +27,11 @@
       </div>
     </header>
     <main>
-      <section class="hero__text-box">
+      <section class="hero__container" id="hero">
         <h1 class="hero__primary">anonymous proxy</h1>
         <p class="hero__primary-sub">In hac habitasse platea dictumst.</p>
         <div class="hero__white-circle-container">
-          <a class="hero__white-circle" href="#">
+          <a class="hero__white-circle" href="./index.html#reasons">
             <img
               class="hero__arow"
               src="./assets/images/ico-scroll-down.svg"
@@ -54,33 +54,43 @@
         </div>
       </section>
 
-      <section class="reasons">
+      <section class="reasons" id="reasons">
         <h3 class="reasons__main">3 reasons to purchase</h3>
-        <h2>Ut sed metus</h2>
-        <p>Lorem ipsum dolor sit amet, consecteur.</p>
 
-        <h2>Curabitur ac erat</h2>
-        <p>Mauris mattis urna quis lorem molestie.</p>
+        <div>
+          <h2 class="reasons__main-bold">Ut sed metus</h2>
+          <p class="reasons__sub">Lorem ipsum dolor sit amet, consecteur.</p>
+        </div>
 
-        <h2>Morbi dictum</h2>
-        <p>Aliquam in dolor et dolor tincidunt.</p>
+        <div>
+          <h2 class="reasons__main-bold">Curabitur ac erat</h2>
+          <p class="reasons__sub">Mauris mattis urna quis lorem molestie.</p>
+        </div>
 
-        <a href="#">more reasons</a>
+        <div>
+          <h2 class="reasons__main-bold">Morbi dictum</h2>
+          <p class="reasons__sub">Aliquam in dolor et dolor tincidunt.</p>
+        </div>
 
-        <a href="#">
-          <div>
+        <div class="btn__reasons-container">
+          <a class="btn__reasons-more" href="#">more reasons</a>
+        </div>
+
+        <div class="reasons__white-circle-container">
+          <a class="reasons__white-circle" href="./index.html#hero">
             <img
+              class="reasons__arow"
               src="./assets/images/ico-arrow.svg"
-              alt="Button to go to the top of the page"
-              title="Button to go to the top of the page"
+              alt=""
+              title=""
             />
-          </div>
-        </a>
+          </a>
+        </div>
       </section>
 
       <footer class="footer">
         <nav>
-          <ul class="footer__links one">
+          <ul class="footer__links">
             <a
               class="footer__links-list"
               href="https://adalab.es/"
