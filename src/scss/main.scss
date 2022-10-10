@@ -83,7 +83,10 @@ body {
 /* Insomnia */
 
 .insomnia {
-  margin: 65px 15px 35px 15px;
+  padding: 65px 15px 35px 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
 }
 
 .insomnia__tips {
@@ -130,8 +133,7 @@ body {
 .reasons {
   background-color: #eff9ff;
   display: grid;
-  padding: 2.9rem 3rem 0rem 3rem;
-  gap: 6rem;
+  gap: 5rem;
   justify-items: center;
   text-align: center;
 }
@@ -140,9 +142,15 @@ body {
   font-family: "Roboto Slab", serif;
   font-size: 2.4rem;
   text-transform: capitalize;
+  padding-top: 2.9rem;
   &-bold {
     font-family: "Roboto Slab", serif;
   }
+}
+.reasons__container-items {
+  margin-left: 7rem;
+  margin-right: 7rem;
+  line-height: 1.67;
 }
 
 .btn__reasons-more {
@@ -169,6 +177,7 @@ body {
   align-items: center;
   justify-content: center;
   padding-bottom: 25px;
+  transform: translateY(4.5rem);
 }
 
 .reasons__white-circle {
@@ -217,4 +226,44 @@ body {
 }
 .copy {
   font-size: 1.4rem;
+}
+
+@media (min-width: 768px) {
+  .hero__primary {
+    font-size: 8rem;
+  }
+
+  .hero__primary-sub {
+    font-size: 2.4rem;
+  }
+  .hero__white-circle {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .insomnia {
+    padding-left: 3.9rem;
+    padding-right: 3.9rem;
+  }
+  .insomnia__look {
+    font-size: 2.6rem;
+  }
+  .insomnia__look-paragraph {
+    font-size: 2rem;
+  }
+  .btn__go-word {
+    width: 9.1rem;
+  }
+
+  .reasons {
+  }
+  .reasons__main {
+    font-size: 2.6rem;
+  }
+  .reasons__main-bold {
+    font-size: 2.4rem;
+  }
+  .reasons__sub {
+    font-size: 2rem;
+  }
 }
