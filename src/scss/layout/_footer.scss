@@ -7,6 +7,15 @@
   align-items: center;
   padding-bottom: 4rem;
 
+  a {
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 500ms;
+  }
+
+  a:hover {
+    text-decoration-color: $color-small;
+  }
+
   &__arow {
     width: 2rem;
   }
