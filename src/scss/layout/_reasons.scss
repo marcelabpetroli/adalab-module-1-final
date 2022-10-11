@@ -4,26 +4,30 @@
   justify-items: center;
   text-align: center;
   padding-bottom: 5.5rem;
-}
 
-.reasons__main {
-  font-family: $font-sub;
-  font-size: 2.4rem;
-  text-transform: capitalize;
-  padding-top: 2.9rem;
-  &-bold {
+  &__main {
     font-family: $font-sub;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    padding-top: 2.9rem;
+    &-bold {
+      font-family: $font-sub;
+      font-size: 1.8rem;
+    }
+  }
+  &__sub {
+    font-size: 1.8rem;
+  }
+
+  &__container-items {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    line-height: 1.67;
+    margin-bottom: 5rem;
   }
 }
 .reasons__main-bold.ut {
   padding-top: 3rem;
-}
-
-.reasons__container-items {
-  margin-left: 7rem;
-  margin-right: 7rem;
-  line-height: 1.67;
-  margin-bottom: 5rem;
 }
 
 .btn__reasons-more {
@@ -39,16 +43,10 @@
 .btn:hover {
   transform: translateY(-0.4rem);
   box-shadow: 0 1rem 2rem $color-bkg-btn;
-}
-.btn:link {
-  display: inline-block;
-  transition: all 0.2s;
-  position: relative;
-}
-.reasons__main-bold {
-  font-size: 1.8rem;
-}
 
-.reasons__sub {
-  font-size: 1.8rem;
+  &:link {
+    display: inline-block;
+    transition: all 0.2s;
+    position: relative;
+  }
 }
