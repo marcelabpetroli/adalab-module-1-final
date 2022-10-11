@@ -1,5 +1,9 @@
-.page__header {
+.header__hamb {
+  position: fixed;
+  background-color: $color-hamb;
+  height: 3.5rem;
+  width: 3.9rem;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
 }

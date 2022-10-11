@@ -1,0 +1,50 @@
+.insomnia {
+  padding: 65px 15px 35px 15px;
+  display: flex;
+  flex-direction: column;
+  align-content: left;
+}
+
+.insomnia__tips {
+  color: $color-small;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  display: block;
+  padding-bottom: 1rem;
+}
+
+.insomnia__look {
+  font-family: $font-sub;
+  font-size: 2.4rem;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.insomnia__look-paragraph {
+  color: $color-parf;
+  font-size: 1.8rem;
+  line-height: 1.67;
+  margin-bottom: 30px;
+}
+
+.btn__go-word {
+  text-decoration: none;
+  color: $color-btn;
+  text-transform: capitalize;
+  font-size: 2rem;
+  border: solid 2px $color-btn;
+  border-radius: 22.5px;
+  height: 4.5rem;
+  width: 7.6rem;
+  padding: 1rem 2.3rem;
+}
+
+.btn__go-word:hover {
+  display: inline-block;
+  transition: all 0.2s;
+  transform: translateY(-0.3rem);
+  box-shadow: 0 1rem 2rem $color-bkg-btn;
+}
+.btn__go-word:link {
+  display: inline-block;
+  transition: all 0.2s;
+}
