@@ -22,14 +22,16 @@ body {
   }
   .hero__primary {
     font-size: 8rem;
+
+    &-sub {
+      font-size: 2.4rem;
+      padding-bottom: 2rem;
+    }
   }
   .dictumst {
     display: block;
   }
-  .hero__primary-sub {
-    font-size: 2.4rem;
-    padding-bottom: 2rem;
-  }
+
   .hero__white-circle {
     width: 4.5rem;
     height: 4.5rem;
@@ -37,17 +39,21 @@ body {
 
   .insomnia {
     padding: 4rem 3.9rem 6rem 3.9rem;
+
+    &__tips {
+      font-size: 1.4rem;
+    }
+
+    &__look {
+      font-size: 2.6rem;
+      padding-bottom: 2rem;
+
+      &-paragraph {
+        font-size: 2rem;
+      }
+    }
   }
-  .insomnia__tips {
-    font-size: 1.4rem;
-  }
-  .insomnia__look {
-    font-size: 2.6rem;
-    padding-bottom: 2rem;
-  }
-  .insomnia__look-paragraph {
-    font-size: 2rem;
-  }
+
   .btn__go-word {
     width: 9.1rem;
     padding-left: 3rem;
@@ -58,49 +64,53 @@ body {
     margin: 1.7rem 4rem -3rem 4rem;
     gap: 2rem;
     padding-bottom: 4rem;
+
+    &-items {
+      margin: 0;
+      height: 15rem;
+    }
   }
-  .reasons__container-items {
-    margin: 0;
-    height: 15rem;
-  }
+
   .reasons__main {
     font-size: 2.6rem;
     padding-bottom: 1rem;
+
+    &-bold {
+      font-size: 2.4rem;
+      width: 100%;
+      padding-bottom: 1.2rem;
+    }
   }
   .reasons__main-bold.ut {
     padding-top: 0;
   }
-  .reasons__main-bold {
-    font-size: 2.4rem;
-    width: 100%;
-    padding-bottom: 1.2rem;
-  }
   .reasons__sub {
     font-size: 2rem;
   }
-  .footer__link-section {
-    display: flex;
-    width: 90vw;
-  }
   .footer {
     padding-bottom: 0;
+
+    &__link-section {
+      display: flex;
+      width: 90vw;
+    }
   }
 
-  .nav__container {
-    width: 50vw;
-    display: flex;
-    justify-content: flex-end;
-    gap: 7rem;
-  }
   .nav {
     display: flex;
     justify-content: flex-end;
+
+    &__container {
+      width: 50vw;
+      display: flex;
+      justify-content: flex-end;
+      gap: 7rem;
+    }
   }
 
   .footer__link-section {
     margin-left: 3.9rem;
   }
-
   .footer__links-list {
     text-align: left;
     width: 15rem;
@@ -121,7 +131,7 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1280px) {
   .header__hamb {
     height: 4.4rem;
     width: 4.4rem;
@@ -134,14 +144,15 @@ body {
   }
   .insomnia {
     padding: 6.5rem 27.5rem 6rem 27.5rem;
+    &__tips {
+      font-size: 1.6rem;
+    }
+    &__look {
+      font-size: 3.2rem;
+      padding-bottom: 1.2rem;
+    }
   }
-  .insomnia__tips {
-    font-size: 1.6rem;
-  }
-  .insomnia__look {
-    font-size: 3.2rem;
-    padding-bottom: 1.2rem;
-  }
+
   .btn__go-word {
     width: 16rem;
     height: 4.5rem;
